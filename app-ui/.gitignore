@@ -1,0 +1,25 @@
+# Common files/folders
+
+## IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+
+## System files
+.DS_Store
+
+## node/npm
+node_modules/
+
+
+# Project files/folders
+
+# dotenv-extended
+.env
+
+# webpack output
+dist/
+
+# Jest coverage
+coverage/

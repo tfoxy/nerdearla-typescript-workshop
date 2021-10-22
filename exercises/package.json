@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "dependencies": {
+    "axios": "^0.23.0",
+    "react-router": "^5.2.1",
+    "type-fest": "^2.5.1",
+    "typescript": "^4.5.0-beta"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/react-router": "^5.1.17",
+    "typed-query-selector": "^2.6.0"
+  }
+}

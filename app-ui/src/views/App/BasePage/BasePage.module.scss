@@ -1,0 +1,64 @@
+.root {
+  display: grid;
+  grid-template-areas:
+    "sidebar  header"
+    "sidebar content";
+  grid-template-columns: 180px auto;
+  grid-template-rows: 50px auto;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  z-index: 1;
+  grid-area: header;
+  align-items: center;
+  padding-left: 20px;
+  background: #fff;
+  box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+  color: #032d60;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #260f8fff;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.sidebarLinkList {
+  display: grid;
+  grid-auto-flow: row;
+  margin-top: 50px;
+  row-gap: 10px;
+}
+
+.link {
+  width: 100%;
+  padding: 10px 20px;
+
+  li > & {
+    display: flex;
+  }
+
+  &:hover {
+    background-color: rgb(141, 141, 235);
+  }
+}
+
+.activeLink {
+  background-color: #55a;
+}
+
+.image {
+  width: 100%;
+}
+
+.mainContainer {
+  height: 100%;
+  padding: 40px;
+  background: #fafafa;
+}
